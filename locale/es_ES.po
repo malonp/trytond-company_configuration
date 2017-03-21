@@ -1,0 +1,30 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:company.configuration,company_currency:"
+msgid "Company Currency"
+msgstr "Moneda empresa"
+
+msgctxt "field:company.configuration,company_timezone:"
+msgid "Company Timezone"
+msgstr "Zona horaria empresa"
+
+
+msgctxt "help:company.configuration,company_currency:"
+msgid "The value set on this field will preset the currency on new companies"
+msgstr "Valor por defecto en las nuevas empresas"
+
+msgctxt "help:company.configuration,company_timezone:"
+msgid "The value set on this field will preset the timezone on new companies"
+msgstr "Valor por defecto en las nuevas empresas"
+
+
+msgctxt "model:ir.action,name:act_company_configuration_form"
+msgid "Configuration"
+msgstr "Configuración"
+
+
+msgctxt "model:ir.ui.menu,name:menu_company_configuration"
+msgid "Configuration"
+msgstr "Configuración"
