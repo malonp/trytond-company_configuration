@@ -21,6 +21,7 @@
 
 from trytond.model import ModelView, ModelSQL, ModelSingleton, fields
 
+
 try:
     import pytz
     TIMEZONES = [(x, x) for x in pytz.common_timezones]
@@ -37,9 +38,9 @@ class Configuration(ModelSingleton, ModelSQL, ModelView):
     "Company Configuration"
     __name__ = 'company.configuration'
 
-    company_currency = fields.Property(fields.Many2One('currency.currency',
+    company_currency = fields.Many2One('currency.currency',
         'Company Currency', help=('The value set on this field will preset the currency on new '
-        'companies')))
-    company_timezone = fields.Property(fields.Selection(TIMEZONES, 'Company Timezone', translate=False,
+        'companies'))
+    company_timezone = fields.Selection(TIMEZONES, 'Company Timezone', translate=False,
         help=('The value set on this field will preset the timezone on new '
-        'companies')))
+        'companies'))
