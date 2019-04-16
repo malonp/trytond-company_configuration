@@ -26,7 +26,4 @@ from .configuration import *
 
 
 def register():
-    Pool.register(
-        Company,
-        Configuration,
-        module='company_configuration', type_='model')
+    Pool.register(Company, Configuration, module='company_configuration', type_='model')
