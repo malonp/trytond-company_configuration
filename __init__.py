@@ -21,6 +21,7 @@
 
 
 from trytond.pool import Pool
+
 from .company import *
 from .configuration import *
 

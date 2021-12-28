@@ -22,7 +22,6 @@
 
 from trytond.pool import Pool, PoolMeta
 
-
 __all__ = ['Company']
 
 
